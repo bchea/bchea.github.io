@@ -1,0 +1,91 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+img {
+	width: 7em;
+	height: 10em;
+}
+h1 {
+	font-family: helvetica;
+	color: #EB1E19;
+}
+h2 {
+	font-family: Arial;
+	color: #900;
+}
+h3 {
+	font-family: myriad pro;
+	color: #FF4236;
+}
+p {
+	font-family: georgia;
+	color: #fff;
+}
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+.color-1 {
+	background: #A6A4A3;
+}
+.color-2 {
+	background: #363535;
+}
+.color-3 {
+	background: #EBE9E6;
+}
+.pattern-1 {background-image: url(../img/stardust.png);}
+.pattern-2 {background-image: url(../img/triangular.png);}
+.pattern-3 {background-image: url(../img/zwartevilt.png);}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+html {
+	background: url(../img/zwartevilt.png);
+}
+header {
+	background: #A6A4A3;
+	height: 3em;
+	text-align: center;
+	overflow: hidden;
+}
+header a {
+	padding: 2em .5em .5em .5em;
+	margin: 2em .5em 0 .5em;
+	background: #363535;
+	color: #EBE9E6;
+
+	position: relative;
+}
+header a:hover {
+	top: 20px
+}
+div {
+	position: relative;
+	display: inline-block;
+}
+.left {
+	top: -9em;
+	margin: 3em 2em;
+	width: 15em;
+}
+.right {
+	width: 15em;
+	margin: 3em 2em;
+}
