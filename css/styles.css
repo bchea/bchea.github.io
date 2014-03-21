@@ -3,12 +3,14 @@ h2, h3, p {
 	margin: 0;
 }
 img {
-	width: 7em;
-	height: 10em;
+	width: 15em;
+	height: 20em;
+	margin-left: 30%;
 }
 h1 {
 	font-family: helvetica;
 	color: #EB1E19;
+	margin-left: 3em
 }
 h2 {
 	font-family: Arial;
@@ -79,13 +81,18 @@ header a:hover {
 div {
 	position: relative;
 	display: inline-block;
+	margin: 3em 0;
+	margin-right: 20%;
 }
-.left {
-	top: -9em;
-	margin: 3em 2em;
-	width: 15em;
-}
+
 .right {
 	width: 15em;
-	margin: 3em 2em;
+	text-align: left;
+	
+	margin-left: 3em;
+
+}	
+div h3 {
+	margin-top: .5em
 }
+margin: 3em 2em;
