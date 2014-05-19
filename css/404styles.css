@@ -1,0 +1,28 @@
+.map {
+	width: 2048px;
+	height: 1346px;
+}
+.home {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 610px;
+	left: 445px;
+
+}
+div {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 17em;
+}
+h1 {
+	color: crimson;
+}
+p {
+	font-size: 20px
+}
+.waldo {
+	width: 45%;
+	height: 45%;
+}
